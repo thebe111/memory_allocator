@@ -1,3 +1,10 @@
 # Memory Allocator
 
 Memory allocator implementation for educational purposes
+
+```
+$ gcc -o allocator.so -fPIC -shared allocator.c
+```
+
+ref: https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
+
