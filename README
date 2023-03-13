@@ -9,10 +9,8 @@ $ gcc -o allocator.so -fPIC -shared allocator.c
 $ LD_PRELOAD=allocator.so <bin>
 ```
 
-ref: https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
+### References
 
-
-### Missing Topics
-
-- arenas
-
+- https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
+- https://github.com/jemalloc/jemalloc
+- https://github.com/microsoft/mimalloc
