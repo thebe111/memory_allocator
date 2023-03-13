@@ -11,6 +11,17 @@ $ LD_PRELOAD=allocator.so <bin>
 
 ### References
 
-- https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
 - https://github.com/jemalloc/jemalloc
 - https://github.com/microsoft/mimalloc
+- https://danluu.com/malloc-tutorial/
+- https://arjunsreedharan.org/post/148675821737/memory-allocators-101-write-a-simple-memory
+- https://akkadia.org/drepper/cpumemory.pdf **
+- https://manybutfinite.com/post/motherboard-chipsets-memory-map/
+- https://manybutfinite.com/post/memory-translation-and-segmentation/
+- https://manybutfinite.com/post/cpu-rings-privilege-and-protection/
+- https://manybutfinite.com/post/anatomy-of-a-program-in-memory/ 
+- https://manybutfinite.com/post/how-the-kernel-manages-your-memory/
+- https://os.phil-opp.com/paging-introduction/
+- https://os.phil-opp.com/paging-implementation/
+- https://os.phil-opp.com/heap-allocation/
+- https://os.phil-opp.com/allocator-designs/
